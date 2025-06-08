@@ -1,0 +1,87 @@
+/* style.css */
+
+/* Tổng thể toàn trang */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Navigation */
+nav {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+main {
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #f0f0f0;
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+/* Headings */
+h1 {
+  font-family: Georgia, serif;
+  font-size: 2em;
+  margin-top: 10px;
+  color: #000000;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+/* Image gallery */
+main div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+main img {
+  width: 150px;
+  height: auto;
+  border: 1px solid #ccc;
+  padding: 4px;
+  background-color: #fafafa;
+}
